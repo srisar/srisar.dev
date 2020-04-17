@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Recursive';
+  src: url('recursive.woff2') format('woff2-variations');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Recursive';
+  src: url('recursive.woff2') format('woff2-variations');
+  font-weight: bold;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Recursive", sans-serif;
+  font-size: 0.9em;
+  padding: 10px;
+  background-color: #dfe6e9;
+}
